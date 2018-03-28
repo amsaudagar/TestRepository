@@ -11,6 +11,9 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+*Main activity class
+*/
 public class MainActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 	TextView resultView=null;		
     CursorLoader cursorLoader;

@@ -60,5 +60,9 @@ public class MainActivity extends FragmentActivity implements LoaderManager.Load
 	public void onDestroy() {
         super.onDestroy();
     }
+	
+	private void doLogin() {
+	// TODO Write login stub here
+	}
 
 }
